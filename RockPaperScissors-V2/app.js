@@ -5,8 +5,8 @@ const gameGrid = document.getElementById('game')
 gameGrid.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay)
 
 const choices = ['rock', 'paper', 'scissors']
-let userChoice
-let computerChoice
+let userChoice ; 
+let computerChoice ; 
 
 const handleClick = (e) => {
   userChoice = e.target.id
